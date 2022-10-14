@@ -27,11 +27,11 @@ export const getItemStyle = (isDragging, draggableStyle) => {
 export const getQuestionListStyle = isDraggingOver => ({
   background: isDraggingOver ? "lightblue" : "lightgrey",
   padding: 8,
-  width: 350
+  width: "100%"
 });
 
 export const getAnswerListStyle = isDraggingOver => ({
   background: isDraggingOver ? "lightblue" : "lightgrey",
   padding: 4,
-  width: 250
+  width: "100%"
 });

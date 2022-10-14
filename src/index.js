@@ -4,6 +4,7 @@ import Answers from "./answer";
 import Questions from "./questions";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faGripVertical } from "@fortawesome/free-solid-svg-icons";
+import "antd.css";
 
 library.add(faGripVertical);
 

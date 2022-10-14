@@ -82,10 +82,10 @@ class Questions extends Component {
                     >
                       {question.content}
                       <span {...provided.dragHandleProps}>
-                        {/* <FontAwesomeIcon
+                        <FontAwesomeIcon
                           icon={"grip-vertical"}
                           style={{ float: "left" }}
-                        /> */}
+                        />
                       </span>
                       <Answers questionNum={index} question={question} />
                     </div>
